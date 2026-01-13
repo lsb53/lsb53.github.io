@@ -1,0 +1,33 @@
+# Site settings
+title: Logan Billet
+description: PhD Candidate in Ecology | Yale University
+author: Logan Billet
+email: logan.billet@yale.edu
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# URL settings (update 'baseurl' if your repo is not username.github.io)
+url: ""
+baseurl: ""
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Collections
+collections:
+  research:
+    output: true
+    permalink: /research/:name/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
