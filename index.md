@@ -95,14 +95,14 @@ nav_order: 1
     <h2>Recent Publications</h2>
     <div class="publications-list">
       <div class="publication-item">
-        <div class="publication-title">Toxicity of six pesticides to the cercariae of a common trematode parasite</div>
-        <div class="publication-authors"><strong>Billet, L.S.</strong>, Wuerthner, V.P., Hua, J., & Relyea, R.A. (2024)</div>
-        <div class="publication-venue">Parasitology Research</div>
+        <div class="publication-title">Ranavirus epizootics and gut bacteriome dysbiosis in a declining amphibian</div>
+        <div class="publication-authors"><strong>Billet, L.S.</strong>, Hernández-Gómez, O., & Skelly, D.K. (2025)</div>
+        <div class="publication-venue">Molecular Ecology</div>
       </div>
       <div class="publication-item">
-        <div class="publication-title">Evolved tolerance to a common pesticide does not alter infection by parasitic helminths in wood frogs</div>
-        <div class="publication-authors"><strong>Billet, L.S.</strong>, Wuerthner, V.P., Hua, J., & Relyea, R.A. (2023)</div>
-        <div class="publication-venue">Functional Ecology</div>
+        <div class="publication-title">Sublethal effects of a mass mortality agent: pathogen-mediated plasticity of growth and development</div>
+        <div class="publication-authors"><strong>Billet, L.S.</strong> & Skelly, D.K. (2025)</div>
+        <div class="publication-venue">Frontiers in Amphibian and Reptile Science</div>
       </div>
     </div>
     <p class="text-center mt-2">
