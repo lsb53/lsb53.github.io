@@ -36,11 +36,7 @@ nav_order: 1
       </div>
       <div class="hero-photo">
         <div class="hero-photo-frame">
-          <!-- Replace with your headshot: <img src="/assets/images/headshot.jpg" alt="Logan Billet"> -->
-          <div class="hero-photo-placeholder">
-            Add your headshot<br>
-            /assets/images/headshot.jpg
-          </div>
+          <img src="/assets/images/headshot.jpg" alt="Logan Billet">
         </div>
       </div>
     </div>

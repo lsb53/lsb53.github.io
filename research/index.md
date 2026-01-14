@@ -48,8 +48,7 @@ permalink: /research/
 
   <div class="research-card">
     <div class="research-card-image">
-      <!-- Replace with: <img src="/assets/images/research/helminths.jpg" alt="Helminth coinfection research"> -->
-      <div class="research-card-placeholder">Add image: helminths.jpg</div>
+      <img src="/assets/images/research/helminths.jpg" alt="Helminth coinfection research">
     </div>
     <div class="research-card-content">
       <h3><a href="{{ '/research/helminth-coinfection/' | relative_url }}">Helminth Coinfection</a></h3>
