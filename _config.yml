@@ -4,6 +4,10 @@ description: PhD Candidate in Ecology | Yale University
 author: Logan Billet
 email: logan.billet@yale.edu
 
+# Social links (optional - uncomment and add your profile URLs)
+# google_scholar: https://scholar.google.com/citations?user=YOUR_ID
+# twitter: your_handle
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -17,6 +21,11 @@ exclude:
   - README.md
   - Gemfile
   - Gemfile.lock
+  - .git
+  - .gitignore
+
+# Permalinks
+permalink: pretty
 
 # Collections
 collections:
@@ -31,3 +40,8 @@ defaults:
       type: "pages"
     values:
       layout: "default"
+  - scope:
+      path: "research"
+      type: "pages"
+    values:
+      layout: "project"

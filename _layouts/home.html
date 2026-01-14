@@ -15,11 +15,11 @@
     <div class="container">
       <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
       <nav class="site-nav">
-        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Home</a>
+        <a href="{{ '/' | relative_url }}" class="active">Home</a>
 
         <!-- Research Dropdown -->
         <div class="nav-dropdown">
-          <button class="nav-dropdown-toggle" {% if page.url contains '/research' %}class="active"{% endif %}>
+          <button class="nav-dropdown-toggle">
             Research
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
               <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
@@ -34,8 +34,8 @@
           </div>
         </div>
 
-        <a href="{{ '/publications/' | relative_url }}" {% if page.url == '/publications.html' or page.url == '/publications/' %}class="active"{% endif %}>Publications</a>
-        <a href="{{ '/cv/' | relative_url }}" {% if page.url == '/cv.html' or page.url == '/cv/' %}class="active"{% endif %}>CV</a>
+        <a href="{{ '/publications/' | relative_url }}">Publications</a>
+        <a href="{{ '/cv/' | relative_url }}">CV</a>
       </nav>
       <button class="nav-toggle" aria-label="Toggle navigation">
         <span></span>
@@ -45,15 +45,7 @@
     </div>
   </header>
 
-  {% if page.layout == 'home' %}
   {{ content }}
-  {% else %}
-  <main class="site-content">
-    <div class="container">
-      {{ content }}
-    </div>
-  </main>
-  {% endif %}
 
   <footer class="site-footer">
     <div class="container">

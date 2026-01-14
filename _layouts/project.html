@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<div class="project-header">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <p class="lead">{{ page.subtitle }}</p>
+    {% endif %}
+    {% if page.tags %}
+    <div class="project-meta">
+      {% for tag in page.tags %}
+      <span>{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+<div class="container">
+  {% if page.hero_image %}
+  <div class="project-hero-image">
+    <img src="{{ page.hero_image | relative_url }}" alt="{{ page.title }}">
+  </div>
+  {% endif %}
+
+  <div class="project-content">
+    {{ content }}
+  </div>
+
+  {% if page.gallery %}
+  <div class="project-gallery">
+    {% for image in page.gallery %}
+    <div class="project-gallery-item">
+      <img src="{{ image.src | relative_url }}" alt="{{ image.alt | default: page.title }}">
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <hr>
+
+  <p><a href="{{ '/research/' | relative_url }}">&larr; Back to Research Overview</a></p>
+</div>
