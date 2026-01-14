@@ -17,8 +17,3 @@ permalink: /cv/
     Download CV (PDF)
   </a>
 </div>
-
-<p class="text-center text-muted mt-2">
-  <em>To add your CV, place your PDF file at:</em><br>
-  <code>assets/Billet_CV.pdf</code>
-</p>

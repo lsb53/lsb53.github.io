@@ -1,75 +1,26 @@
 ---
 layout: project
 title: Ranavirus Epidemics in Wood Frogs
-subtitle: Understanding the drivers and impacts of emerging viral disease in amphibian populations
 permalink: /research/ranavirus/
 hero_image: /assets/images/research/ranavirus-hero.jpg
-tags:
-  - Disease Ecology
-  - Amphibians
-  - Emerging Pathogens
 ---
 
-## Overview
+Mass mortality events can have profound impacts on populations and ecosystems, yet are rarely studied in a systematic way.
 
-My dissertation investigates the drivers and impacts of ranavirus outbreaks in wood frog (*Lithobates sylvaticus*) populations. Ranaviruses are emerging pathogens that cause mass mortality events in amphibians worldwide, yet we still have much to learn about what determines epidemic outcomes.
+## Field Surveys
 
-<!-- Add hero image: A striking photo of wood frogs, a die-off event, or fieldwork -->
+During spring and summer 2021, I conducted longitudinal surveys at 40 wood frog breeding ponds in the Yale-Myers Forest in northeastern Connecticut. Die-off events were observed at approximately 20% of surveyed sites. I found that:
 
-## The Central Question
+- Rapid spikes in ranavirus environmental DNA (eDNA) concentrations coincided with tadpole mortality
+- High infection prevalence appeared 2-7 weeks before observable deaths
+- Ponds without die-offs showed little to no detectable ranavirus eDNA
 
-**What are the causes and consequences of ranavirus epidemics in wood frog populations?**
+## Challenging Current Hypotheses
 
-This seemingly simple question encompasses complex ecological dynamics:
+The timing of die-offs contradicted prevailing theories. Rather than clustering around specific developmental stages or environmental conditions, mortality occurred across a wide temporal window (May 24 – July 7) and at varying tadpole developmental stages and temperatures.
 
-- Why do some populations experience devastating outbreaks while others remain unaffected?
-- How do environmental conditions influence disease transmission and virulence?
-- What are the long-term population-level consequences of epidemic events?
+## Proposed Alternative Mechanism
 
-## Research Approach
+I hypothesize that ranavirus die-offs result from buildup of infectious viral particles in the environment, which beyond a certain threshold generates a positive feedback loop of reinfection and increased viral shedding.
 
-### Field Surveillance
-
-I conduct intensive monitoring of wood frog breeding populations across Connecticut, tracking:
-
-- **Disease prevalence** through systematic sampling and molecular diagnostics
-- **Host population dynamics** including breeding adult counts, larval density, and metamorph production
-- **Environmental conditions** that may influence outbreak probability
-
-<!-- Gallery placeholder: Field photos of sampling, ponds, tadpoles -->
-
-### Experimental Studies
-
-Controlled laboratory experiments allow me to isolate specific factors:
-
-- Temperature effects on host-pathogen interactions
-- Dose-response relationships for infection outcomes
-- Variation in host susceptibility among populations
-
-### Molecular Epidemiology
-
-Using genomic tools to understand:
-
-- Pathogen strain diversity and virulence variation
-- Transmission pathways within and between populations
-- Evolutionary dynamics of the host-pathogen system
-
-## Key Findings
-
-*Research in progress - findings will be updated as the dissertation develops.*
-
-## Broader Implications
-
-Amphibian disease is a major conservation concern globally. Understanding the ecology of ranavirus epidemics can inform:
-
-- **Monitoring programs** for early detection of outbreaks
-- **Management strategies** to mitigate disease impacts
-- **Predictive models** for assessing population vulnerability
-
-## Collaborators
-
-This work is conducted in collaboration with the [Skelly Lab](https://environment.yale.edu/profile/skelly) at Yale University and benefits from partnerships with state wildlife agencies and conservation organizations.
-
-## Related Publications
-
-*See the [Publications](/publications/) page for relevant papers from this project.*
+This research employs field manipulations, laboratory experiments, and mathematical modeling to test this mechanism.
